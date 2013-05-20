@@ -1,5 +1,6 @@
-Houdini - The Escapist
-======================
+# Cuffs
+
+Cuffs is a fork of [houdini](https://github.com/vmg/houdini/) without the C99.
 
 Houdini doesn't quite qualify as a library. In fact, I didn't even bother
 to write a Makefile (well, others did). It's zero-dependency and modular.
@@ -32,7 +33,7 @@ for you, and decimal/hex code point specifiers.
 UTF-8 strings. If you are using another encoding, you should probably transcode
 *before* passing the buffer to Houdini.
 
-### Current API:
+## Current API:
 
 Do you really need docs for this?
 
@@ -54,6 +55,11 @@ Pass your string. It'll get escaped/unescaped in the target buffer, and the call
 If the given string has nothing to escape/unescape, the call will return 0 and the
 output buffer will be empty.
 
-### Questions?
+## Acknowledgements
 
-Open an issue. Or shout angrily at me on Twitter ([@vmg](https://twitter.com/vmg)).
+Please give all praise to [houdini](https://github.com/vmg/houdini/)'s original
+author, [@vmg](https://twitter.com/vmg).
+
+## License
+
+Cuffs is licensed under the [MIT license](LICENSE).
