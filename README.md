@@ -62,4 +62,4 @@ author, [@vmg](https://twitter.com/vmg).
 
 ## License
 
-Cuffs is licensed under the [MIT license](LICENSE).
+Cuffs is licensed under the [MIT license](COPYING).
